@@ -42,8 +42,8 @@ img {
 
 .container {
     width: 1158px;
-    /*padding-left: 15px;
-    padding-right: 15px;*/
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid red;
 }
@@ -67,12 +67,13 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header {
     background-color: #FFFFFF;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 
 }
@@ -82,13 +83,13 @@ img {
     gap: 332px;
 }
 
-.header-navigation {}
-
-.header-logo {}
+.header-logo {
+    
+}
 
 .header-navigation {
     display: flex;
-    gap: 76px;
+    align-items: center;
 }
 
 .header-menu {
@@ -349,11 +350,12 @@ img {
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .footer-logo-link {
+    display: inline-block;
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -361,6 +363,8 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
+
 }
 
 .footer-logo-color {
@@ -379,7 +383,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 17.5px;
 }
 
 /** =========================== */
