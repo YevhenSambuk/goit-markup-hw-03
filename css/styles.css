@@ -99,7 +99,7 @@ img {
 }
 
 .header-menu-item {
-    padding: 24px 0;
+    
 }
 
 .header-menu-limk {
@@ -108,6 +108,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .header-menu-limk:active,
 .header-menu-limk:focus,
