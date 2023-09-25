@@ -75,7 +75,7 @@ img {
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-    padding: 24px 0;
+    padding: 25.5px 0;
 }
 
 .header-container {
@@ -95,9 +95,12 @@ img {
 .header-menu {
     display: flex;
     gap: 40px;
+    
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-limk {
     color: #2E2F42;
@@ -146,11 +149,11 @@ img {
 
 .hero {
     background-color: #2E2F42;
-    
+    padding: 188px 0;
 }
 
 .hero-container {
-    padding: 188px 0;
+    
 }
 
 
@@ -251,7 +254,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -271,6 +274,11 @@ img {
 .team-img {
     margin-bottom: 32px;
 }
+
+.team-sub-title {
+    padding: 32px 0;
+}
+
 
 .team-subtitle {
     color: #2E2F42;
